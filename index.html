@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <title>八段锦练习辅助</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f4e9;
+            color: #333;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        .baduanjin-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .baduanjin-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .baduanjin-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .baduanjin-title {
+            padding: 10px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .baduanjin-number {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .baduanjin-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .baduanjin-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>八段锦练习辅助</h1>
+    
+    <div class="baduanjin-container">
+        <!-- 第一式 -->
+        <div class="baduanjin-item">
+            <img src="image/image1.jpeg" alt="八段锦第一式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">1</span>
+                两手托天理三焦
+            </div>
+        </div>
+        
+        <!-- 第二式 -->
+        <div class="baduanjin-item">
+            <img src="image/image2.jpeg" alt="八段锦第二式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">2</span>
+                左右开弓似射雕
+            </div>
+        </div>
+        
+        <!-- 第三式 -->
+        <div class="baduanjin-item">
+            <img src="image/image3.jpeg" alt="八段锦第三式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">3</span>
+                调理脾胃须单举
+            </div>
+        </div>
+        
+        <!-- 第四式 -->
+        <div class="baduanjin-item">
+            <img src="image/image4.jpeg" alt="八段锦第四式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">4</span>
+                五劳七伤往后瞧
+            </div>
+        </div>
+        
+        <!-- 第五式 -->
+        <div class="baduanjin-item">
+            <img src="image/image5.jpeg" alt="八段锦第五式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">5</span>
+                摇头摆尾去心火
+            </div>
+        </div>
+        
+        <!-- 第六式 -->
+        <div class="baduanjin-item">
+            <img src="image/image6.jpeg" alt="八段锦第六式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">6</span>
+                两手攀足固肾腰
+            </div>
+        </div>
+        
+        <!-- 第七式 -->
+        <div class="baduanjin-item">
+            <img src="image/image7.jpeg" alt="八段锦第七式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">7</span>
+                攒拳怒目增气力
+            </div>
+        </div>
+        
+        <!-- 第八式 -->
+        <div class="baduanjin-item">
+            <img src="image/image8.jpeg" alt="八段锦第八式" class="baduanjin-img">
+            <div class="baduanjin-title">
+                <span class="baduanjin-number">8</span>
+                背后七颠百病消
+            </div>
+        </div>
+    </div>
+</body>
+</html>
